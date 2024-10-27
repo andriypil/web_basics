@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lab-4</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styil.css">
+  <link rel="shortcut icon" href="mail.png" type="image/x-icon">
+</head>
+
+<body>
+  <h1 class="H1">Моя перша HTML-форма</h1>
+
+  <form action="https://httpbin.org/post" method="post">
+    <label for="name">І'мя:</label>
+    <input type="text" id="name" name="name" /><br /><br />
+
+    <label for="date">Дата народження:</label>
+    <input type="date" name="birthdate" /><br /><br />
+
+    <label for="email">Імейл:</label>
+    <input type="email" id="email" name="email" /><br /><br />
+
+    <label for="message">Повідомлення:</label>
+    <textarea id="message" name="message" rows="4" cols="20"> </textarea><br /><br />
+
+    <h2 class="H1">Адаптивне зображення</h2>
+
+    <picture>
+      <source media="(max-width: 468px)" source="https://picsum.photos/300/500" />
+      <img src="https://picsum.photos/1000/400" alt="Адаптивне зображення" />
+    </picture><br /><br />
+
+    <h2 class="H1">Ваші улюблені напої?</h2>
+    <div class="input">
+      <input type="checkbox" id="checkbox" name="checkbox" />
+      <label for="checkbox">Мартіні</label>
+
+      <input type="checkbox" id="checkbox" name="checkbox" />
+      <label for="checkbox">Піна колада </label>
+
+      <input type="checkbox" id="checkbox" name="checkbox" />
+      <label for="checkbox">Дайкірі</label>
+
+      <input type="checkbox" id="checkbox" name="checkbox" />
+      <label for="checkbox">Кайпірінья</label>
+
+      <h2 class="H1">Моя національність</h2>
+
+      <input type="radio" id="radio" name="radio" />
+      <label for="radio">Німець</label>
+
+      <input type="radio" id="radio" name="radio" />
+      <label for="radio">Українець</label>
+
+      <input type="radio" id="radio" name="radio" />
+      <label for="radio">Португалець</label><br><br>
+
+      <input type="submit" value="Надіслати" />
+      <input type="reset" value="Очистити" />
+    </div>
+    <script src="script.js"></script>
+  </form>
+</body>
+
+</html>
