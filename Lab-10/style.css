@@ -1,0 +1,717 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+body {
+    width: 1480px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fon {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: transparent;
+    position: absolute;
+    width: 97%;
+    top: 0;
+    z-index: 5;
+}
+
+.main {
+    width: 100%;
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: none;
+    outline: none;
+}
+
+.logo {
+    width: 82px;
+    height: 82px;
+    flex-shrink: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.nav-links a:hover {
+    color: #8A8A8A;
+}
+
+.button1 {
+    width: 190px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid #8A8A8A;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    transition: background-color 0.3s;
+    font-family: monospace;
+}
+
+.button1:hover {
+    background-color: #8A8A8A;
+}
+
+.title {
+    font-family: monospace;
+    text-align: center;
+    font-size: 230px;
+    font-weight: 800;
+    transform: translateY(-380px);
+}
+
+.title2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    transform: translateY(-320px);
+}
+
+.line,
+.line2 {
+    width: 3px;
+    height: 525px;
+    background-color: #8A8A8A;
+}
+
+.line {
+    transform: translate(1000px, -170px);
+}
+
+.line2 {
+    transform: translate(480px, -170px);
+}
+
+.characteristics {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 0 130px 0;
+    height: 300px;
+}
+
+.characteristic {
+    text-align: center;
+    font-size: 45px;
+    width: 30%;
+}
+
+.unit {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.fon2 {
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+}
+
+.H2 {
+    font-family: monospace;
+    color: #000;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 300%;
+    text-transform: uppercase;
+}
+
+.text {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    text-transform: uppercase;
+    display: flex;
+    width: 1300px;
+    height: 246px;
+}
+
+.main1 {
+    width: 100%;
+}
+
+.div {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.H2-1 {
+    font-family: monospace;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text2 {
+    color: #FFF;
+    font-family: monospace;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+video {
+    margin-top: 100px;
+    width: 1350px;
+}
+
+.fon3 {
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+    height: 1750px;
+    width: 1480px;
+}
+
+.slider {
+    width: 1377px;
+    height: 711px;
+    border: 2px solid white;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.sliderline {
+    height: 711px;
+    width: 3729px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    perspective: 1000px;
+    width: 100%;
+    height: auto;
+}
+
+.H4-color {
+    border: 2px solid white;
+    border-width: auto;
+    width: 350px;
+    margin: 30px auto;
+    overflow: hidden;
+
+}
+
+h3 {
+    color: #000;
+    font-family: monospace;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 127%;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+
+.line3 {
+    background-color: #000;
+    height: 6px;
+    margin-top: -50px;
+    border-radius: 90px;
+}
+
+.left1,
+.right1,
+.Audi-foto {
+    width: 1270px;
+    height: 600px;
+    padding: 0 40px 0 40px;
+    margin-top: -50px;
+}
+
+.left {
+    margin-left: -1300px;
+    margin-top: -550px;
+    transition: background-color 0.3s;
+    border-radius: 90px;
+    width: 200px;
+    z-index: 2;
+}
+
+.left:hover {
+    background-color: #e6e6e6;
+    border-radius: 90px;
+}
+
+.right {
+    margin-right: -1270px;
+    margin-top: -207px;
+    border-radius: 90px;
+    width: 200px;
+    z-index: 2;
+}
+
+.right:hover {
+    background-color: #e6e6e6;
+    border-radius: 90px;
+}
+
+.H4 {
+    margin-top: 150px;
+    color: #000;
+    font-family: monospace;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 127%;
+    text-transform: uppercase;
+}
+
+.color {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    gap: 80px;
+}
+
+.line-color {
+    display: flex;
+    justify-content: space-around;
+    gap: 85px;
+    margin-top: -70px;
+}
+
+.line4 {
+    width: 143px;
+    height: 3px;
+    background-color: #727272;
+}
+
+.line4-1 {
+    width: 143px;
+    height: 3px;
+    background-color: #D9D9D9;
+}
+
+.H4-1 {
+    color: #000;
+    font-family: monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 127%;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.line4-2 {
+    width: 1405px;
+    height: 4px;
+    background: #969696;
+    border-radius: 90px;
+    margin-top: 100px;
+}
+
+.Info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    gap: 140px;
+}
+
+.Info-text {
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-family: monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 125%;
+    text-transform: uppercase;
+    gap: 360px;
+    margin-top: -100px;
+    margin-left: -0px;
+    margin-top: 20px;
+}
+
+.Info-link {
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-family: monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    gap: 400px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.arrow-link {
+    width: 18px;
+    height: 18px;
+    transform: translateY(4px);
+}
+
+.fon4 {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+    height: 500px;
+    padding: 80px;
+}
+
+.text-model {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-model-H5 {
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-transform: uppercase;
+    padding: 38px;
+    margin-left: -430px;
+}
+
+.text-model-P {
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 213%;
+    text-transform: uppercase;
+    margin-left: -430px;
+}
+
+.text-model-H5-1 {
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-transform: uppercase;
+    padding: px;
+    margin-left: 0px;
+    margin-top: -420px;
+}
+
+.text-model-P1 {
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 213%;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.our-data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-data-1 {
+    width: 60px;
+    height: 60px;
+    transform: translate(500px, 100px);
+}
+
+@media (max-width: 768px) {
+
+    body {
+        width: 768px;
+    }
+
+    .main {
+        width: 60%;
+        height: 8%;
+        margin: 0 auto;
+        box-shadow: none;
+        outline: none;
+        transform: translate(300px, 100px);
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        transition: color 0.3s;
+        font-weight: 400;
+        font-family: monospace;
+
+    }
+
+    .logo {
+
+        transform: translate(390px);
+    }
+
+    .nav-links {
+        align-items: center;
+        transform: translate(400px);
+
+    }
+
+    .title {
+        max-width: 600px;
+        font-size: 100px;
+        font-weight: 800;
+        transform: translate(450px, -100px);
+    }
+
+    .title2 {
+        font-size: 50px;
+        max-width: 600px;
+        transform: translate(450px, -100px);
+    }
+
+    .line,
+    .line2 {
+        width: 3px;
+        height: 405px;
+        background-color: #8A8A8A;
+    }
+
+    .line {
+        transform: translate(910px, -80px);
+    }
+
+    .line2 {
+        transform: translate(620px, -75px);
+    }
+
+    .characteristics {
+        width: 50%;
+    }
+
+    .characteristic {
+        font-size: 32px;
+        transform: translate(380px, 50px);
+    }
+
+    .unit {
+        font-size: 18px;
+    }
+
+    .H2 {
+        font-size: 34px;
+    }
+
+    .text {
+        font-size: 20px;
+        width: 650px;
+    }
+
+    .main1 {
+        width: 1000px;
+    }
+
+    .H2-1 {
+        font-size: 34px;
+    }
+
+    .text2 {
+        font-size: 20px;
+        width: 650px;
+    }
+
+    video {
+        margin-top: 100px;
+        width: 780px;
+        transform: translate(0px, -40px);
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    .left1,
+    .right1,
+    .Audi-foto {
+        width: 50%;
+        height: 20%;
+        transform: translate(0px, 40px);
+        padding: 0 340px 0 340px;
+    }
+
+    .left {
+        transform: translate(-360px, -610px);
+    }
+
+    .right {
+        transform: translate(360px, -670px);
+    }
+
+    .H4 {
+        font-size: 20px;
+        transform: translate(10px, -690px);
+    }
+
+    .color {
+        display: flex;
+        justify-content: space-around;
+        transform: translate(10px, -690px);
+
+    }
+
+    .line-color {
+        transform: translate(10px, -690px);
+        width: 30%;
+    }
+
+    .H4-1 {
+        transform: translate(0px, -700px);
+    }
+
+    .line4-2 {
+        width: 1415px;
+        transform: translate(53px, -720px);
+    }
+
+    .Info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: -300px;
+        gap: 40px;
+        transform: translate(190px, -370px);
+    }
+
+    .Info-text {
+        display: flex;
+        justify-content: space-around;
+        font-size: 19px;
+        gap: 240px;
+        transform: translate(140px, -370px);
+    }
+
+    .Info-link {
+        display: flex;
+        justify-content: space-around;
+        font-size: 16px;
+        gap: 250px;
+        transform: translate(180px, -370px);
+    }
+
+    .fon4 {
+        transform: translateY(-330px);
+        height: auto;
+    }
+
+    .text-model-H5 {
+        font-size: 25px;
+        transform: translateX(230px);
+    }
+
+    .text-model-P {
+        font-size: 16px;
+        transform: translateX(250px);
+    }
+
+    .text-model-H5-1 {
+        font-size: 25px;
+        transform: translate(130px, 75px);
+    }
+
+    .text-model-P1 {
+        font-size: 16px;
+        transform: translate(130px, 75px);
+    }
+
+    .our-data-1 {
+        transform: translate(200px, 350px);
+    }
+
+    .nav-links {
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    .button1 {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .fon3,
+    .fon4 {
+        padding: 20px;
+        height: auto;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .left,
+    .right {
+        margin: 0;
+        width: 50px;
+    }
+
+    .color {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
